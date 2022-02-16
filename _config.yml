@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "PYOHYU"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/koala.jpg"
   bio              : "ㅎㅇ"
   location         : "신성신길제국"
   email            :
