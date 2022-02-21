@@ -1,7 +1,7 @@
 ---
 title: "Matlab"
 layout: archive
-permalink: categories/matlab
+permalink: /matlab
 author_profile: true
 sidebar_main: true
 ---

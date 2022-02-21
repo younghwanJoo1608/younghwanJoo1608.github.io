@@ -1,11 +1,11 @@
 ---
-title: "집합론"
+title: "Math"
 layout: archive
-permalink: categories/set_theory
+permalink: /math
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.categories['Set Theory'] %}
+{% assign posts = site.categories['Math'] %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
