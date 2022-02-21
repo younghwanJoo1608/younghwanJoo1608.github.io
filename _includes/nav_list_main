@@ -14,31 +14,33 @@
         <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
         <span class="nav__sub-title">Math </span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
-            <ul>
+
                 <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
-                {% for category in site.categories %}
-                    {% if category[0] == "Set Theory" %}
-                        <li><a href="/categories/set_theory" class="">집합론 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        <span class="nav__sub-title">MATLAB </span>
+  
             <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Matlab" %}
-                        <li><a href="/categories/matlab" class="">Matlab ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Simulink" %}
-                        <li><a href="/categories/simulink" class="">Simulink ({{category[1].size}})</a></li>
+                {% for tag in site.tags %}
+                    {% if tag[0] == "Set Theory" %}
+                        <li><a href="/math/set_theory" class="">집합론 ({{tag[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
 
+        <span class="nav__sub-title">MATLAB </span>
+            <ul>
+                {% for tag in site.tags %}
+                    {% if tag[0] == "Matlab" %}
+                        <li><a href="/matlab/matlab" class="">Matlab ({{tag[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for tag in site.tags %}
+                    {% if tag[0] == "Simulink" %}
+                        <li><a href="/matlab/simulink" class="">Simulink ({{tag[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
 
         
       </li>
