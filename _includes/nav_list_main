@@ -23,10 +23,18 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+        <span class="nav__sub-title">MATLAB </span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "STL" %}
-                        <li><a href="/categories/stl" class="">C++ STL & 표준 ({{category[1].size}})</a></li>
+                    {% if category[0] == "Matlab" %}
+                        <li><a href="/categories/matlab" class="">Matlab ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Simulink" %}
+                        <li><a href="/categories/simulink" class="">Simulink ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
