@@ -76,7 +76,7 @@
   - ##### [3.3 조건문](https://pyohyu.github.io/matlab/sml3.3/)
 
 - #### Ch. 4 Simulink와 MATLAB
-  - ##### [4.1 MATLAB 직업 공간 변수](https://pyohyu.github.io/matlab/sml4.1/)
+  - ##### [4.1 MATLAB 작업 공간 변수](https://pyohyu.github.io/matlab/sml4.1/)
   - ##### [4.2 MATLAB Function 블록](https://pyohyu.github.io/matlab/sml4.2/)
 
 - #### Ch. 5 Dynamic System
