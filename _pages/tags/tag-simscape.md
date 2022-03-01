@@ -1,5 +1,5 @@
 ---
-title: "Simulink"
+title: "Simscape"
 layout: archive
 permalink: matlab/simscape
 author_profile: true
