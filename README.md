@@ -118,7 +118,7 @@
   - ##### [5.1 Ports](https://pyohyu.github.io/matlab/scp5.1/)
   - ##### [5.2 Sources with Inputs](https://pyohyu.github.io/matlab/scp5.2/)
 
-- #### Ch. 6 Inital Values
+- #### Ch. 6 Initial Values
   - ##### [6.1 The Variables Tab](https://pyohyu.github.io/matlab/scp6.1/)
 
 - #### Ch. 7 Multidomain Modeling
