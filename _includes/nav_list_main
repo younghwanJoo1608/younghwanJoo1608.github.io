@@ -49,6 +49,15 @@
                 {% endfor %}
             </ul>
         
+        <span class="nav__sub-title">Robot </span> 
+            <ul>
+                {% for tag in site.tags %}
+                    {% if tag[0] == "Robotics" %}
+                        <li><a href="/robot/robotics" class="">Robotics ({{tag[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
       </li>
   </ul>
 </nav>
