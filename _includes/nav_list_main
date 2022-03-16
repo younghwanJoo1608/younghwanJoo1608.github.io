@@ -66,7 +66,13 @@
                 {% endif %}
                 {% endfor %}
             </ul>
-
+            <ul>
+                {% for tag in site.tags %}
+                {% if tag[0] == "Machine Learning" %}
+                <li><a href="/robot/machine_learning" class="">Machine Learning ({{tag[1].size}})</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
         </li>
     </ul>
 </nav>
