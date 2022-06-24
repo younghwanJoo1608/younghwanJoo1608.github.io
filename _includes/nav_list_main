@@ -17,7 +17,7 @@
             <ul>
                 {% for tag in site.tags %}
                 {% if tag[0] == "Propositional Logic" %}
-                <li><a href="/logics/prop_logic" class="">Propositional Logic ({{tag[1].size}})</a></li>
+                <li><a href="/logics/prlidx" class="">Propositional Logic ({{tag[1].size}})</a></li>
                 {% endif %}
                 {% endfor %}
             </ul>
@@ -31,14 +31,14 @@
             <ul>
                 {% for tag in site.tags %}
                 {% if tag[0] == "Set Theory" %}
-                <li><a href="/math/set_theory" class="">Set theory ({{tag[1].size}})</a></li>
+                <li><a href="/math/setidx" class="">Set theory ({{tag[1].size}})</a></li>
                 {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for tag in site.tags %}
                 {% if tag[0] == "Lie Group" %}
-                <li><a href="/math/lie_group" class="">Lie Group ({{tag[1].size}})</a></li>
+                <li><a href="/math/lieidx" class="">Lie Group ({{tag[1].size}})</a></li>
                 {% endif %}
                 {% endfor %}
             </ul>
@@ -47,28 +47,28 @@
             <ul>
                 {% for tag in site.tags %}
                 {% if tag[0] == "Matlab" %}
-                <li><a href="/matlab/matlab" class="">Matlab ({{tag[1].size}})</a></li>
+                <li><a href="/matlab/mtlidx" class="">Matlab ({{tag[1].size}})</a></li>
                 {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for tag in site.tags %}
                 {% if tag[0] == "Simulink" %}
-                <li><a href="/matlab/simulink" class="">Simulink ({{tag[1].size}})</a></li>
+                <li><a href="/matlab/smlidx" class="">Simulink ({{tag[1].size}})</a></li>
                 {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for tag in site.tags %}
                 {% if tag[0] == "Simscape" %}
-                <li><a href="/matlab/simscape" class="">Simscape ({{tag[1].size}})</a></li>
+                <li><a href="/matlab/scpidx" class="">Simscape ({{tag[1].size}})</a></li>
                 {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for tag in site.tags %}
                 {% if tag[0] == "Text Analytics Toolbox" %}
-                <li><a href="/matlab/text_analytics_toolbox" class="">Text Analytics Toolbox ({{tag[1].size}})</a></li>
+                <li><a href="/matlab/tatidx" class="">Text Analytics Toolbox ({{tag[1].size}})</a></li>
                 {% endif %}
                 {% endfor %}
             </ul>
@@ -77,7 +77,8 @@
             <ul>
                 {% for tag in site.tags %}
                 {% if tag[0] == "Robotics" %}
-                <li><a href="/robot/robotics" class="">Robotics ({{tag[1].size}})</a></li>
+                <!-- li><a href="/robot/robotics" class="">Robotics ({{tag[1].size}})</a></li -->
+                <li><a href="/robot/rbtidx" class="">Robotics ({{tag[1].size}})</a></li>
                 {% endif %}
                 {% endfor %}
             </ul>
@@ -91,14 +92,14 @@
             <ul>
                 {% for tag in site.tags %}
                 {% if tag[0] == "Vision" %}
-                <li><a href="/robot/vision" class="">Vision ({{tag[1].size}})</a></li>
+                <li><a href="/robot/visidx" class="">Vision ({{tag[1].size}})</a></li>
                 {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for tag in site.tags %}
                 {% if tag[0] == "Machine Learning" %}
-                <li><a href="/robot/machine_learning" class="">Machine Learning ({{tag[1].size}})</a></li>
+                <li><a href="/robot/mlidx" class="">Machine Learning ({{tag[1].size}})</a></li>
                 {% endif %}
                 {% endfor %}
             </ul>
