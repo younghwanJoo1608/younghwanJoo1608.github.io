@@ -37,6 +37,13 @@
             </ul>
             <ul>
                 {% for tag in site.tags %}
+                {% if tag[0] == "Optimization" %}
+                <li><a href="/math/optidx" class="">Optimization ({{tag[1].size}})</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for tag in site.tags %}
                 {% if tag[0] == "Lie Group" %}
                 <li><a href="/math/lieidx" class="">Lie Group ({{tag[1].size}})</a></li>
                 {% endif %}
