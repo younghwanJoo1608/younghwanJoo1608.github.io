@@ -1,0 +1,8 @@
+vocabulary
+$\mathcal{V}$
+
+natural num
+$\mathbb{N}$
+
+red
+<span style="color:red"></span>
